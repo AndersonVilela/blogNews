@@ -1,0 +1,5 @@
+<template>
+ <svg class="animate-bounce w-6 h-6 ...">
+  <!-- ... -->
+</svg>
+</template>
