@@ -16,7 +16,7 @@
             <strong>{{ card.title }}</strong>
           </NuxtLink>
         </li>
-      </ul>
+      </ul>2
       <TheFooter />
     </div>
   </div>
@@ -66,7 +66,7 @@ onMounted(() => {
 }
 
 .articles {
-  @apply flex flex-col gap-6 h-5/6;
+  @apply flex flex-col gap-6 h-5/6 w-full;
 }
 
 .articles > .article {

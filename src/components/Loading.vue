@@ -1,5 +1,11 @@
 <template>
- <svg class="animate-bounce w-6 h-6 ...">
-  <!-- ... -->
-</svg>
+<div role="status" class="container">
+  <span>...Loading</span>  
+</div>
 </template>
+
+<style lang="css" scoped>
+.container {
+  @apply flex items-center justify-center;
+}
+</style>
