@@ -42,10 +42,10 @@ async function fetchPost(): Promise<void> {
 
   cards.value.shift();
 
-  new SlugService().getLatestCard().then((response) => {
-    latestCard.value = response
+  await new SlugService().getLatestCard().then((response) => {
+    latestCard.value = response;
+    console.log(response)
   })
-
 }
 
 onMounted(() => {

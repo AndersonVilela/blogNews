@@ -44,17 +44,13 @@ export default class SlugService {
         return response.data
           .filter((card) => card.title)
           .map((card) => {
-            return new Card(
-              card.slug, 
-              card.title, 
-              card.created_at);
+            return new Card(card.slug, card.title, card.created_at);
           });
       });
   }
 
   public async getLatestCard(): Promise<Card> {
     const cards = await this.getCards();
-
-    return new Card(cards[0].title, cards[0].slug, cards[0].created_at);
+    return new Card( cards[0].slug, cards[0].title, cards[0].created_at);
   }
 }
