@@ -47,7 +47,7 @@ onMounted(() => {
 <style lang="css" scoped>
 
 .slug-container {
-  @apply  w-screen h-screen flex max-lg:flex-col ;
+  @apply  w-screen h-screen flex max-lg:flex-col max-lg:w-full  ;
 }
 .slug-container > .right {
   @apply w-6/12 h-full flex items-center justify-start flex-col p-10 max-lg:w-full ;

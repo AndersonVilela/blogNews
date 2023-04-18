@@ -3,16 +3,16 @@
    
     <ul class="links">
       <li>
-        <a href="">Github</a>
+        <a href="https://github.com/AndersonVilela">Github</a>
       </li>
       <li>
-        <a href="">Twitter</a>
+        <a href="https://twitter.com/LUCA7374">Twitter</a>
       </li>
       <li>
-        <a href="">Linkedin</a>
+        <a href="https://www.linkedin.com/in/anderson-vilela-239071232/">Linkedin</a>
       </li>
       <li>
-        <a href="">Instagram</a>
+        <a href="https://www.instagram.com/_lucas_vilela/">Instagram</a>
       </li>
     </ul>
   </div>

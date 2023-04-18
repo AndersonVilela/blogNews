@@ -16,7 +16,7 @@
             <strong>{{ card.title }}</strong>
           </NuxtLink>
         </li>
-      </ul>2
+      </ul>
       <TheFooter />
     </div>
   </div>
@@ -56,10 +56,10 @@ onMounted(() => {
 
 <style lang="css" scoped>
 .posts-container {
-  @apply w-screen h-screen flex max-lg:flex-col;
+  @apply w-screen h-screen flex max-lg:flex-col max-lg:w-full ;
 }
 .posts-container > div  {
-  @apply p-10 h-full;
+  @apply p-10 h-full w-6/12 max-lg:w-full;
 }
 .posts-container > div > h1 {
   @apply not-italic font-bold text-4xl leading-[112%] text-gray-800  mb-12 font-sans;
@@ -70,7 +70,7 @@ onMounted(() => {
 }
 
 .articles > .article {
-  @apply w-[41.375rem] cursor-pointer ;
+  @apply w-[41.375rem] max-lg:w-full cursor-pointer ;
 }
 
 .articles > .article > a  {
