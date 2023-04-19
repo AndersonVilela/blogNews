@@ -7,4 +7,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: [
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-4349091134125615'
+    }]
+  ]
 });
