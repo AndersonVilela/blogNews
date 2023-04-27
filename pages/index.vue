@@ -1,6 +1,5 @@
 <template>
   <div class="app-container">
-    
     <SideWelcome />
     <LatestPost />
   </div>
