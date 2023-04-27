@@ -18,7 +18,9 @@ export default defineNuxtConfig({
     head: {
       script: [
         {children:"  window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-1C6R2NMLJD');"},
-      {src: 'https://www.googletagmanager.com/gtag/js?id=G-1C6R2NMLJD'}
+      {src: 'https://www.googletagmanager.com/gtag/js?id=G-1C6R2NMLJD'},
+      {async:'true', src:'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4349091134125615', crossorigin:'anonymous'}
+
     ]
     },
   },
